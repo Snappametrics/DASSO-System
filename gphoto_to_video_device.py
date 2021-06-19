@@ -5,7 +5,7 @@ import pdb
 import cv2
 camera = gp.Camera()
 camera.init()
-ffmpeg = Popen(['ffmpeg', '-i', '-', '-vcodec', 'rawvideo', '-pix_fmt', 'yuv420p', '-f', 'v4l2', '/dev/video0'], stdin=PIPE)
+ffmpeg = Popen(['ffmpeg', '-r', '24', '-i', '-', '-vcodec', 'rawvideo', '-pix_fmt', 'yuv420p', '-f', 'v4l2', '-r', '24', '/dev/video0'], stdin=PIPE)
 
 while True:
   capture = camera.capture_preview()
