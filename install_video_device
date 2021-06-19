@@ -1,0 +1,5 @@
+#!/bin/bash
+cd v4l2loopback
+make && sudo make install
+sudo depmod -a
+sudo modprobe v412loopback
