@@ -5,3 +5,4 @@ Welcome to the repository for the as-of-yet un-backronymed DASSO system- the aut
 ## Potential backronyms
 
 - **D**ata **A**ssissted **S**nappa **S**coring **O**bserver
+- **D**ice **A**ctivated **S**core **S**quabble **O**verruler
